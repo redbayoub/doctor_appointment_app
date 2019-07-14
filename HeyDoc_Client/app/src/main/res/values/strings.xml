@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">HeyDoc</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="title_activity_sign_up">Sign up</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="action_go_to_sign_up">Go to Sign Up</string>
+    <string name="title_activity_server_sign_up">Server Sign up</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="select_gender_label">Gender :</string>
+    <string name="prompt_birth_date">Birth Date</string>
+    <string name="action_pick_date">Pick Date</string>
+    <string name="title_activity_patient_registration">Patient Registration</string>
+    <string name="prompt_contact_phone_number">Phone Number</string>
+    <string name="prompt_emergency_contact_phone_number">Emergency Phone Number</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="prompt_blood_type">Choose Blood Type</string>
+    <string name="action_add_patient_account">Add Patient</string>
+
+    <string-array name="blood_types">
+        <item>Choose Blood Type</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="action_view_as">view as</string>
+    <string name="action_profile">Profile</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="doctor_name_label">Doctor Name</string>
+    <string name="action_edit_info">Edit Info</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="patient_account">Patient Account</string>
+    <string name="action_list_appointments">List Appointments</string>
+    <string name="action_edit_profile_info">Edit Profile Info</string>
+    <string name="action_create_account">Create Account</string>
+    <string name="doctor_account">Doctor Account</string>
+    <string name="admin_account">Admin Account</string>
+    <string name="action_manage_users">Users Management</string>
+    <string name="action_manage_doctors">Doctors Management</string>
+    <string name="action_manage_specialities">Specialities Management</string>
+    <string name="action_manage_patients">Patients Management</string>
+    <string name="director_account">Director Account</string>
+    <string name="action_manage_admins">Admins Management</string>
+    <string name="action_edit_account_info">Edit Account Info</string>
+    <string name="no_description">No Description</string>
+    <string name="speciality_title">Speciality Title</string>
+    <string name="speciality_description">Speciality Description</string>
+    <string name="action_add">Add</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_add_speciality">Add Speciality</string>
+    <string name="title_edit_speciality">Edit Speciality</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete_dialog_title">Delete Confirmation</string>
+    <string name="delete_dialog_message">Are you sure ?</string>
+    <string name="action_view">View</string>
+    <string name="title_view_speciality">View Speciality</string>
+    <string name="action_close">Close</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="EmailVerfied">Email Verfied</string>
+    <string name="EmailNotVerfied">Email Not Verfied</string>
+    <string name="user_firstName">First Name</string>
+    <string name="user_lastName">Last Name</string>
+    <string name="user_birthDate">Birth Date</string>
+    <string name="user_gender">Gender</string>
+    <string name="view_patient_details">View Patient Details</string>
+    <string name="view_doctor_details">View Doctor Details</string>
+    <string name="contact_phone_number">Contact Phone Number</string>
+    <string name="emergency_contact_phone_number">Emergency Contact Phone Number</string>
+    <string name="clinic_addrs_lng">Clinic Address</string>
+    <string name="clinic_addrs">Clinic Address</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="request_doctor_account">Request Doctor Account</string>
+    <string name="specialities">Specialities</string>
+    <string name="working_schdule">Working Schedule</string>
+    <string name="director">Director</string>
+    <string name="manage_downgrade">Downgrade</string>
+    <string name="manage_upgrade">Upgrade</string>
+    <string name="downgrade_dialog_title">Downgrade Confirmation</string>
+    <string name="upgrade_dialog_title">Upgrade Confirmation</string>
+    <string name="action_request_doctor_account">Request Doctor Account</string>
+    <string name="save">Save</string>
+    <string name="action_save">Save</string>
+    <string name="action_logout">Logout</string>
+    <string name="prompt_current_password">Current Password (Required)</string>
+    <string name="prompt_new_password">New Password (Optional)</string>
+    <string name="starts_at">Starts at :</string>
+    <string name="ends_at">Ends at :</string>
+    <string name="action_reschedule">Reschedule</string>
+    <string name="action_get_directions">Get Directions</string>
+    <string name="action_book">Book</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="select_period">Select Period</string>
+    <string name="select_service">Select Service</string>
+    <string name="action_select">Select</string>
+    <string name="approve">Approve</string>
+    <string name="disapprove">Disapprove</string>
+    <string name="day">Day</string>
+    <string name="working">Working</string>
+    <string name="not_working">Not Working</string>
+    <string name="approve_dialog_message">Are you sure ?</string>
+    <string name="approve_dialog_title">Approve Confirmation</string>
+    <string name="disapprove_dialog_message">Are you sure ?</string>
+    <string name="disapprove_dialog_title">DisApprove Confirmation</string>
+    <string name="doctor_approved">Approved</string>
+    <string name="services">Services</string>
+    <string name="action_manage_doc_services">Doctor Services Managment</string>
+    <string name="title_add_doc_service">Add Doctor Service</string>
+    <string name="doc_service_title">Doctor Service Title</string>
+    <string name="doc_service_description">Doctor Service Description</string>
+    <string name="title_edit_doc_service">Edit Doctor Service</string>
+    <string name="set">Set</string>
+    <string name="my_services">My Services</string>
+    <string name="my_specialities">My Specialties</string>
+    <string name="my_working_schedule">My Working Schedule</string>
+    <string name="clinic_gps_location">Clinic GPS Location</string>
+    <string name="select_specailties">Select Specialties</string>
+    <string name="select_doc_service">Select Doc Service</string>
+    <string name="title_add_doctor_service">Add Doctor Service</string>
+    <string name="doc_service">Doc Service</string>
+    <string name="est_dur">Estimated Duration ( min )</string>
+    <string name="fee">Fee ( $ )</string>
+    <string name="nothing_selected">Nothing Selected</string>
+    <string name="title_add_working_schedule">Add Working Schedule</string>
+    <string name="from_time">From Time</string>
+    <string name="to_time">To Time</string>
+    <string name="pick_day">Pick Day</string>
+    <string name="start_time">Open Time</string>
+    <string name="open_time">Open Time</string>
+    <string name="close_time">Close Time</string>
+    <string name="holiday">Holiday</string>
+    <string name="time_error">Start Time must be less than Close Time</string>
+    <string name="selected_doctor">Selected Doctor</string>
+    <string name="selected_period">Seleced Period</string>
+    <string name="selected_service">Selected Service</string>
+    <string name="patient_problem">Patient Problem</string>
+    <string name="action_setAsFinished">Set as Finished</string>
+    <string name="show_patient_details">Show Patient Details</string>
+    <string name="show_doctor_details">Show Doctor Details</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete_account_dialog_title">Delete Account Confirmation</string>
+    <string name="delete_user_dialog_title">Delete User Confirmation</string>
+    <string name="appointment_cancel_dialog_title">Appointment Cancelation</string>
+    <string name="cancel_reason">Cancel Reason</string>
+    <string name="status">Status : </string>
+    <string name="canceled">Canceled</string>
+    <string name="finished">Finished</string>
+    <string name="pending">Pending</string>
+    <string name="add_dialog_message">This is dongerous opertaion , You\'re going to give the selected user adminstration privileges . Are you sure ?</string>
+    <string name="add_dialog_title">Add Admin Confirmation</string>
+    <string name="action_next">Next</string>
+    <string name="view_admin_details">View Admin Details</string>
+    <string name="search">Search</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account</string>
+    <string name="action_create_patient_account">Create Patient Account</string>
+    <string name="type_to_search">Type to search</string>
+    <string name="prompt_new_email">New Email (Optional)</string>
+    <string name="prompt_current_email">Current Email (Required)</string>
+    <string name="account_picture">Account Picture</string>
+
+    <string-array name="appointment_states">
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Rescheduled</item>
+        <item>Canceled</item>
+        <item>All</item>
+    </string-array>
+</resources>

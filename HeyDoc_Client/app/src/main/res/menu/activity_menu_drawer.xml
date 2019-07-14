@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/patient_options"
+        android:title="@string/patient_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/patient_create_account"
+                    android:title="@string/action_create_patient_account" />
+                <item
+                    android:id="@+id/patient_appointment_list"
+                    android:title="@string/action_list_appointments" />
+                <item
+                    android:id="@+id/patient_edit_account_info"
+                    android:title="@string/action_edit_account_info" />
+            </group>
+        </menu>
+
+    </item>
+    <item android:id="@+id/doctor_options" android:title="@string/doctor_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/doctor_request_account"
+                    android:title="@string/action_request_doctor_account" />
+                <item
+                    android:id="@+id/doctor_appointment_list"
+                    android:title="@string/action_list_appointments" />
+                <item
+                    android:id="@+id/doctor_edit_account_info"
+                    android:title="@string/action_edit_account_info" />
+            </group>
+        </menu>
+
+    </item>
+    <item  android:id="@+id/admin_options" android:title="@string/admin_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/admin_manage_users"
+                    android:title="@string/action_manage_users" />
+
+                <item
+                    android:id="@+id/admin_manage_patients"
+                    android:title="@string/action_manage_patients" />
+
+                <item
+                    android:id="@+id/admin_manage_doctors"
+                    android:title="@string/action_manage_doctors" />
+
+                <item
+                    android:id="@+id/admin_manage_doc_services"
+                    android:title="@string/action_manage_doc_services" />
+                <item
+                    android:id="@+id/admin_manage_specialities"
+                    android:title="@string/action_manage_specialities" />
+
+            </group>
+        </menu>
+
+    </item>
+    <item android:id="@+id/director_options" android:title="@string/director_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/admin_manage_admin"
+                    android:title="@string/action_manage_admins" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

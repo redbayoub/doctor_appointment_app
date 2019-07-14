@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/user_row_layout" />
+
+    <TextView
+        android:id="@+id/admin_isDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/director"
+        android:textColor="#00FF00" />
+
+</LinearLayout>

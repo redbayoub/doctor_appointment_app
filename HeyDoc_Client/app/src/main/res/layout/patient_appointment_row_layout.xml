@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/PatientAppointment_doctor_picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_doctor_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/PatientAppointment_doctor_picture"
+            android:text="Red Ayoub"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_clinic_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PatientAppointment_doctor_fullname"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/PatientAppointment_doctor_picture"
+            android:text="baba saad sherki - ghardaia" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PatientAppointment_starts_at_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingRight="10dp"
+            android:text="@string/starts_at" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_starts_at"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/PatientAppointment_starts_at_label"
+            android:text="2019/05/03 22:30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        <TextView
+            android:id="@+id/PatientAppointment_ends_at_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PatientAppointment_starts_at_label"
+            android:paddingRight="10dp"
+            android:text="@string/ends_at" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_ends_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PatientAppointment_starts_at_label"
+            android:layout_toEndOf="@id/PatientAppointment_ends_at_label"
+            android:text="2019/05/03 22:30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+        <TextView
+            android:id="@+id/PatientAppointment_status_at_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PatientAppointment_ends_at_label"
+            android:paddingRight="10dp"
+            android:text="@string/status" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PatientAppointment_ends_at_label"
+            android:layout_toEndOf="@+id/PatientAppointment_status_at_label"
+            android:text="Finished"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_cancelReason_at_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PatientAppointment_status_at_label"
+            android:paddingRight="10dp"
+            android:text="@string/cancel_reason" />
+
+        <TextView
+            android:id="@+id/PatientAppointment_cancelReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PatientAppointment_status_at_label"
+            android:layout_toEndOf="@+id/PatientAppointment_cancelReason_at_label"
+            android:maxLines="2"
+            android:text="in holiday"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    </RelativeLayout>
+</LinearLayout>

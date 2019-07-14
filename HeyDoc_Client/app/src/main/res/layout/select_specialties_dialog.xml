@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/select_specailties"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF" />
+
+    <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:id="@+id/ll"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/searchView"
+                android:src="@drawable/ic_filter_list_black_24dp" />
+        </LinearLayout>
+    -->
+
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv"
+        android:layout_weight="1"
+        app:defaultQueryHint="@string/type_to_search"
+        app:iconifiedByDefault="false" />
+
+    <ListView
+        android:id="@+id/selectSpecialities_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchView"
+        android:layout_margin="10dp"
+        android:choiceMode="multipleChoice" />
+
+</RelativeLayout>

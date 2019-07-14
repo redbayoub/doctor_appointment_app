@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.pro0inter.heydoc.activities.AddAppointmentActivity">
+
+
+    <ProgressBar
+        android:id="@+id/AddApp_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/AddApp_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selected_doctor"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/selectDoctorFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+
+                android:onClick="selectDoctor">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/select_doctor"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selected_period"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/selectPeriodFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#EEE"
+                android:onClick="selectPeriod">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/select_period"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selected_service"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/selectServiceFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectPeriodFrame"
+                android:layout_margin="5dp"
+                android:background="#EEE"
+                android:onClick="selectService">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/select_service"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/AddApp_patientProblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/patient_problem"
+                    android:inputType="textMultiLine"
+                    android:maxLength="500"
+                    android:maxLines="5" />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#EEE"
+            android:onClick="cancelAppointment"
+            android:text="@string/action_cancel" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="bookAppointment"
+            android:text="@string/action_book"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/user_firstName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_firstName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/user_lastName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_lastName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/user_birthDate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_birthDate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/user_gender"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_gender_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/blood_type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_bloodType_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/contact_phone_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_phoneNumber_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/emergency_contact_phone_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/patient_emengencyPhoneNumber_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+</LinearLayout>

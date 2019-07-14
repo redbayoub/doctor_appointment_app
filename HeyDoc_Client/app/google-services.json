@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387842852776",
+    "firebase_url": "https://heydoc-6666c.firebaseio.com",
+    "project_id": "heydoc-6666c",
+    "storage_bucket": "heydoc-6666c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387842852776:android:1ebfa4af9dc8322d",
+        "android_client_info": {
+          "package_name": "com.pro0inter.heydoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387842852776-2ge5unlo8e80jsb078aj93t5ubt4al7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmQH1xPXMTp319ShAZ5REea4WaWTwqiLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387842852776-2ge5unlo8e80jsb078aj93t5ubt4al7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

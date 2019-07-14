@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/speciality_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/appointment_cancel_dialog_title"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/appointmentCancelDialog_cancel_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cancel_reason"
+            android:maxLength="255" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

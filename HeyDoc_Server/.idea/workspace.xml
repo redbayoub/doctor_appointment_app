@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HeyDocServer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1187459c-5e47-459a-80bd-59fff259899b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/FileUploadContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/SimpleStroageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DocServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DocServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/SpecialityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/SpecialityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DocService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DocService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/FirebaseAuthExceptionImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/FirebaseTokenImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-312770224">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="43" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.120" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="4" />
+          <entry key="project.open.time.37" value="5" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="3" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.opened" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="9" />
+          <entry key="java" value="194" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="194" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="192" />
+          <entry key="java" value="8018" />
+          <entry key="properties" value="3" />
+          <entry key="txt" value="99" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8018" />
+          <entry key="PLAIN_TEXT" value="291" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/FileUploadContoller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/PatientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="192" selection-start-line="192" selection-end-line="192" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/SecurityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1870">
+              <caret line="137" column="49" selection-start-line="135" selection-start-column="14" selection-end-line="137" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/StorageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/SimpleStroageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>speciality_of</find>
+      <find>Variable</find>
+      <find>Param</find>
+      <find>@JsonIgnore</find>
+      <find>ROLE_ADMIN</find>
+      <find>Product</find>
+      <find>admin</find>
+      <find>Admin</find>
+      <find>get</find>
+      <find>speciality</find>
+      <find>DoctorServiceService</find>
+      <find>FirebaseAuthExceptionImpl</find>
+      <find>FirebaseTokenImpl</find>
+      <find>Boolean.TRUE.equals</find>
+      <find>Boolean.FALSE.equals</find>
+      <find>false</find>
+      <find>true</find>
+      <find>firebaseToken.getClaims()</find>
+      <find>&quot;admin&quot;</find>
+      <find>&quot;patient&quot;</find>
+      <find>&quot;doctor&quot;</find>
+      <find>&quot;director&quot;</find>
+      <find>firebaseToken.getClaims();</find>
+      <find>FirebaseAuth.getInstance().setCustomUserClaims(firebaseToken.getUid(), claims);</find>
+      <find>Syste</find>
+      <find>Sy</find>
+      <find>Objects.nonNull</find>
+      <find>Objects.isNull</find>
+      <find>null)</find>
+      <find>, null)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>2.1.3</replace>
+      <replace>2.0.8</replace>
+      <replace>specialityOf</replace>
+      <replace>Param</replace>
+      <replace>Variable</replace>
+      <replace>Appointment</replace>
+      <replace>appointment</replace>
+      <replace>docService</replace>
+      <replace>doctor</replace>
+      <replace>doctorService</replace>
+      <replace>Patient</replace>
+      <replace>speciality</replace>
+      <replace>workingSchedule</replace>
+      <replace>User</replace>
+      <replace>getOrDefault</replace>
+      <replace>docservice</replace>
+      <replace>DoctorService_Service</replace>
+      <replace>FirebaseAuthException</replace>
+      <replace>Objects.nonNull</replace>
+      <replace>Objects.isNull</replace>
+      <replace>FirebaseToken</replace>
+      <replace>Roles.ADMIN.name()</replace>
+      <replace>Roles.PATIENT.name()</replace>
+      <replace>Roles.APPROVED_DOCTOR.name()</replace>
+      <replace>Roles.DIRECTOR.name()</replace>
+      <replace>securityUtils.getClaims(firebaseToken);</replace>
+      <replace>securityUtils.setClaims(firebaseToken.getUid(),claims);</replace>
+      <replace>Boolean.TRUE.equals</replace>
+      <replace>Boolean.FALSE.equals</replace>
+      <replace>, false)</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Model</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Red &lt;redayoub47@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/AdminDTO_Out.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_In.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_Mini.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Repositories/DocServiceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DocServiceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DoctorServicePK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Repositories/DoctorServiceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/ObjectMapperUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorServiceDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DoctorServiceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DocServiceDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/SpecialityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DocService_Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DoctorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/AppointmentDTO_ADD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/WorkingScheduleDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Appointment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/WorkingSchedule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/WorkingScheduleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_Out.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_update.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DoctorService_Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/AppointmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DoctorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/PatientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/AppointmentDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/HeyDocServerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorControllers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/Roles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/PatientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DocServiceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/SpecialityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DocService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorServiceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/SimpleStroageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/SimpleStroageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/FileUploadContoller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HeyDocServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HeyDocServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="HeyDocServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="6" />
+    <option name="y" value="26" />
+    <option name="width" value="1358" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="DTOs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HeyDocServer" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeyDocServer2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeyDocServer2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="/usr/Android/Android/Sdk" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561450216315" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/domain" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/firebaseAuth" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Repositories" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pro0inter.HeyDocServer.Domain.DTOs" />
+      <recent name="com.pro0inter.HeyDocServer.Services" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pro0inter.HeyDocServer.Security.firebaseAuth" />
+      <recent name="com.pro0inter.HeyDocServer.DTOs" />
+      <recent name="com.pro0inter.HeyDocServer.Services" />
+      <recent name="com.pro0inter.HeyDocServer.Repositories" />
+      <recent name="com.pro0inter.HeyDocServer.Controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HeyDocServerApplication">
+    <configuration name="HeyDocServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pro0inter.HeyDocServer.HeyDocServerApplication" />
+      <module name="HeyDocServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pro0inter.HeyDocServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeyDocServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HeyDocServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pro0inter.HeyDocServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pro0inter.HeyDocServer" />
+      <option name="MAIN_CLASS_NAME" value="com.pro0inter.HeyDocServer.HeyDocServerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeyDocServer [spring-boot:repackage]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:repackage" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HeyDocServerApplication" />
+      <item itemvalue="JUnit.HeyDocServerApplicationTests.contextLoads" />
+      <item itemvalue="Maven.HeyDocServer [spring-boot:repackage]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HeyDocServerApplication" />
+        <item itemvalue="Maven.HeyDocServer [spring-boot:repackage]" />
+        <item itemvalue="JUnit.HeyDocServerApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1187459c-5e47-459a-80bd-59fff259899b" name="Default Changelist" comment="" />
+      <created>1552472364793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552472364793</updated>
+    </task>
+    <task id="LOCAL-00001" summary="model contains user , accounts ,..">
+      <created>1553161764241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553161764241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="beta version : Problems : fake firebase auth, add appointment when canceled">
+      <created>1561022544729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561022544730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="beta version : Problems : fake firebase auth, add appointment when canceled">
+      <created>1561225371982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561225371982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HeyDocServerApplicationTests_contextLoads - 2019.03.20 at 18h 36m 00s.xml">
+      <configuration name="HeyDocServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeyDocServerApplicationTests_contextLoads - 2019.03.20 at 18h 36m 16s.xml">
+      <configuration name="HeyDocServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeyDocServerApplicationTests_contextLoads - 2019.03.20 at 18h 37m 34s.xml">
+      <configuration name="HeyDocServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeyDocServerApplicationTests_contextLoads - 2019.03.20 at 18h 39m 06s.xml">
+      <configuration name="HeyDocServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HeyDocServerApplicationTests_contextLoads - 2019.03.21 at 14h 53m 22s.xml">
+      <configuration name="HeyDocServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="25" width="1368" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44360903" weight="0.31060606" />
+      <window_info id="Structure" order="1" sideWeight="0.556391" side_tool="true" weight="0.23257576" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49772727" weight="0.78409094" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772727" weight="0.64772725" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24350649" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5022727" side_tool="true" weight="0.78409094" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32467532" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8068182" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" x="0" y="0" width="289" height="542" id="Documentation" order="7" sideWeight="0.5032467" side_tool="true" weight="0.2931818" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49675325" weight="0.2931818" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44360903" weight="0.31060606" />
+      <window_info id="Structure" order="1" sideWeight="0.556391" side_tool="true" weight="0.23257576" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49772727" visible="true" weight="0.78409094" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772727" weight="0.64772725" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24350649" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5022727" side_tool="true" weight="0.78409094" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32467532" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8068182" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" x="0" y="0" width="289" height="542" id="Documentation" order="7" sideWeight="0.5032467" side_tool="true" weight="0.2931818" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49675325" weight="0.2931818" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="model contains user , accounts ,.." />
+    <MESSAGE value="beta version : Problems : fake firebase auth, add appointment when canceled" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta version : Problems : fake firebase auth, add appointment when canceled" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>192</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorControllers.java</url>
+          <line>257</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="554" column="11" selection-start-line="554" selection-start-column="11" selection-end-line="554" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/WorkingScheduleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_Mini.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/ObjectMapperUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_Out.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="57" selection-start-line="32" selection-start-column="3" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/WorkingScheduleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/DoctorDTO_update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/AppointmentDTO_ADD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DoctorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Repositories/DoctorServiceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pro0inter/HeyDocServer/HeyDocServerApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/SpecialityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DoctorService_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/AppointmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/PatientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/DoctorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DTOs/AppointmentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Services/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/WorkingSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="578" column="28" selection-start-line="578" selection-start-column="28" selection-end-line="578" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AppointmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="265" column="106" lean-forward="true" selection-start-line="265" selection-start-column="106" selection-end-line="265" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DocServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="71" column="100" selection-start-line="71" selection-start-column="100" selection-end-line="71" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorControllers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.12.RELEASE/spring-web-5.0.12.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/DoctorServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="180" column="102" selection-start-line="180" selection-start-column="102" selection-end-line="180" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/DocService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/SpecialityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="143" column="96" selection-start-line="143" selection-start-column="96" selection-end-line="143" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.37/tomcat-embed-core-8.5.37.jar!/org/apache/tomcat/jni/FileInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.12.RELEASE/spring-web-5.0.12.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_211/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/Roles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/HeyDocServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/io/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/FileUploadContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="78" column="72" selection-start-line="78" selection-start-column="72" selection-end-line="78" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="137" column="49" selection-start-line="135" selection-start-column="14" selection-end-line="137" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/utils/upload/SimpleStroageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="85" column="14" lean-forward="true" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Controllers/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pro0inter/HeyDocServer/Security/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HeyDocServer:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HeyDocServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

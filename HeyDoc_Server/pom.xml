@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><!--2.0.8.RELEASE-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.8.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.pro0inter</groupId>
+    <artifactId>HeyDocServer</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>HeyDocServer</name>
+    <description>Server for Hey Doc</description>
+
+    <properties>
+        <start-class>com.pro0inter.HeyDocServer.HeyDocServerApplication</start-class>
+        <java.version>1.8</java.version>
+        <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
+    </properties>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>6.8.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+
+        <!-- BEGIN Dependencies not neaded-->
+        <!--
+
+        <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-mail</artifactId>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-security</artifactId>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.security.oauth</groupId>
+                    <artifactId>spring-security-oauth2</artifactId>
+                    <version>2.0.8.RELEASE</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>commons-lang</groupId>
+                    <artifactId>commons-lang</artifactId>
+                    <version>2.6</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>org.projectlombok</groupId>
+                    <artifactId>lombok</artifactId>
+                    <version>1.16.22</version>
+                    <scope>provided</scope>
+                </dependency>
+                <dependency>
+                    <groupId>org.mapstruct</groupId>
+                    <artifactId>mapstruct</artifactId> &lt;!&ndash; use mapstruct-jdk8 for Java 8 or higher &ndash;&gt;
+                    <version>${org.mapstruct.version}</version>
+                </dependency>
+
+                <dependency>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                    <version>1.2.17</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.security</groupId>
+                    <artifactId>spring-security-config</artifactId>
+                    <version>4.2.2.RELEASE</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-autoconfigure</artifactId>
+                    <version>2.0.1.RELEASE</version>
+                </dependency>
+
+        -->
+        <!-- END Dependencies not neaded-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.22</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-compiler-plugin</artifactId>
+                 <version>3.5.1</version>
+                 <configuration>
+                     <source>${java.version}</source> &lt;!&ndash; or higher, depending on your project &ndash;&gt;
+                     <target>${java.version}</target> &lt;!&ndash; or higher, depending on your project &ndash;&gt;
+                     <annotationProcessorPaths>
+                         <path>
+                             <groupId>org.mapstruct</groupId>
+                             <artifactId>mapstruct-processor</artifactId>
+                             <version>${org.mapstruct.version}</version>
+                         </path>
+                     </annotationProcessorPaths>
+                 </configuration>
+             </plugin>-->
+        </plugins>
+    </build>
+
+</project>

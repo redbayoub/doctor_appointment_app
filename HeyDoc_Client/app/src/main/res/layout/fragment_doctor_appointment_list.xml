@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pro0inter.heydoc.fragments.DoctorAppointmentListFragment">
+
+    <ProgressBar
+        android:id="@+id/loading_doctor_appointment_list_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible" />
+
+
+    <ListView
+        android:id="@+id/doctor_appointment_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

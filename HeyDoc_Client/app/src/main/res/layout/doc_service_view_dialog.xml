@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/doc_service_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/doc_service_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="255"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/doc_service_description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/doc_service_description_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="255"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="3dp"
+        android:text="dddddddd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+</LinearLayout>

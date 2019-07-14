@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="996025b5-976c-423e-908c-af59cdbe4ba6" name="Default Changelist" comment="beta version : Problems : fake firebase , ugly sign in/up">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/FirebaseUserIdTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/ImageFilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_doctor_avatar_placeholder_100dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_error_black_100dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_avatar_placeholder_100dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/AddAppointmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/AddAppointmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAppointmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAppointmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/AdminManamentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/AdminManamentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DocServiceManagmentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DocServiceManagmentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorAppointmentListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorAppointmentListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorManagmentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorManagmentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditDoctorAccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditDoctorAccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditPatientAccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditPatientAccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/FirebaseRegistrationFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientAppointmentListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientAppointmentListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientManagmentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientManagmentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientRegistrationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientRegistrationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/RequestDoctorAccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/RequestDoctorAccountFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/SpecialitiesManagmentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/SpecialitiesManagmentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/UserRegistrationFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/UsersManagmentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/UsersManagmentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/interfaces/ShowProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/CustomFirebaseUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/UserInfoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/UserInfoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_white_100dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_firebase_registration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_patient_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_patient_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_request_doctor_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_request_doctor_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_registration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/patient_appointment_row_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/patient_appointment_row_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_menu_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_menu_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/edit_account_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/edit_account_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/management_fregments_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/management_fregments_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HeyDoc" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="87" column="9" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/doctor_row_layout.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="37" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAppointmentAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/FileUploadTestActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1738">
+              <caret line="108" column="53" selection-start-line="104" selection-start-column="20" selection-end-line="108" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/RequestDoctorAccountFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2794">
+              <caret line="207" column="109" selection-start-line="207" selection-start-column="109" selection-end-line="207" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user_avatar_placeholder_100dp.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/patient_appointment_row_layout.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>But</find>
+      <find>Doctor</find>
+      <find>Res</find>
+      <find>RestE</find>
+      <find>Rest</find>
+      <find>E</find>
+      <find>Erpp</find>
+      <find>Erp</find>
+      <find>Er</find>
+      <find>Err</find>
+      <find>Error</find>
+      <find>ErrorU</find>
+      <find>ErrorUt</find>
+      <find>ErrorUti</find>
+      <find>ErrorUtils</find>
+      <find>ErrorUtils.</find>
+      <find>BIRTH_DATE_FORMAT</find>
+      <find>BIRTH_DATE_FORMAT = &quot;MM/dd/yyyy&quot;;</find>
+      <find>Sea</find>
+      <find>UserDTO_In</find>
+      <find>CustomFirebaseUser</find>
+      <find>login_form</find>
+      <find>email_login_form</find>
+      <find>UserRegistration</find>
+      <find>FirebaseRegistration</find>
+      <find>addOnCompleteListener</find>
+      <find>ServiceGenerator.createServiceWithFreshToken</find>
+      <find>== null</find>
+      <find>null</find>
+      <find>showProgress</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>patient</replace>
+      <replace>Patient</replace>
+      <replace>EditProfile</replace>
+      <replace>this</replace>
+      <replace>((Main)getApplication()).getUserInfoHolder()</replace>
+      <replace>admin</replace>
+      <replace>doctor</replace>
+      <replace>docservices</replace>
+      <replace>doc_service</replace>
+      <replace>layout</replace>
+      <replace>PatientEdit</replace>
+      <replace>DoctorEdit</replace>
+      <replace>DoctorAppointment</replace>
+      <replace>PatientAppointment</replace>
+      <replace>User</replace>
+      <replace>BIRTH_DATE_FORMAT = &quot;dd/MM/yyyy&quot;;</replace>
+      <replace>DoctorDTO</replace>
+      <replace>PatientDTO</replace>
+      <replace>AdminDTO</replace>
+      <replace>SpecialityDTO</replace>
+      <replace>DoctorServiceDTO</replace>
+      <replace>DocServiceDTO</replace>
+      <replace>FirebaseUser</replace>
+      <replace>SignUp</replace>
+      <replace>ServiceGenerator.createServiceSecured</replace>
+      <replace>false</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/res/layout</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="redayoub &lt;redayoub47@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/management_fregments_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DocServiceManagmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorManagmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientManagmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/SpecialitiesManagmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/UserAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/AdminAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DocServiceAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorServiceAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/SpecialityAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_user_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/select_doctor_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/WeekDays.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAppointmentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/Roles.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/FirebaseRegistrationFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/CreatePatientAccount.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/CreatePatientAccountFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/aaa.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/FirebaseUserIdTokenInterceptor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/AdminManamentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_patient_registration.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_menu_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/UserInfoHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/AddAppointmentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_white_100dp.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/ImageFilePath.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_file_upload_test.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/FileUploadService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/FileUploadTestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorAppointmentListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/UsersManagmentFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientRegistrationFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_request_doctor_account.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/patient_appointment_row_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAppointmentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/RequestDoctorAccountFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_XL_API_22 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.pro0inter.heydoc" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/redayoub/Android/AndroidStudioProjects/HeyDoc/app/src/main/java/com/pro0inter/heydoc/utils/WeekDays.java" />
+    <property name="VectorAssetImportPath" value="$USER_HOME$/Desktop" />
+    <property name="android.profiler.active" value="true" />
+    <property name="android.sdk.path" value="E:/win10/Android/Sdk" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557306698569" />
+    <property name="device.picker.selection" value="2WGDU17310004402" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Devlopment/flutter_projects/todo_app" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.0.1" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.pro0inter.heydoc.activities" />
+      <recent name="com.pro0inter.heydoc.fragments" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pro0inter.heydoc.api.DTOs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1561028854893" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1561028854893" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="false" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" />
+      <option name="PORT" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="996025b5-976c-423e-908c-af59cdbe4ba6" name="Default Changelist" comment="" />
+      <created>1557155122996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557155122996</updated>
+    </task>
+    <task id="LOCAL-00001" summary="nav drawer added using fragment and list of buttons">
+      <created>1557764511044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557764511044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- nav drawer added using navigation view and menu&#10;- users , patients ,specialities managment added">
+      <created>1558250852439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558250852439</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- nav drawer added using navigation view and menu&#10;- users , patients ,specialities managment added">
+      <created>1558250889227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558250889227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="beta version : Problems : fake firebase , ugly sign in/up">
+      <created>1561022875641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561022875641</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.22272727" />
+      <window_info id="Captures" order="3" side_tool="true" weight="0.32852808" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" id="Structure" order="7" visible="true" weight="0.24848485" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3273906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5730519" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3961039" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.5388349" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5128983" side_tool="true" weight="0.72564936" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.48710167" weight="0.72564936" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.9222042" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3273906" />
+      <window_info anchor="bottom" id="Gradle Console" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3273906" />
+      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49772382" visible="true" weight="0.3241491" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="16" sideWeight="0.49924126" weight="0.32792208" />
+      <window_info anchor="right" x="86" y="120" width="851" height="501" id="Documentation" order="0" type="FLOATING" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.30454546" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32776934" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="StringPreview" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32928678" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32928678" />
+      <window_info anchor="right" id="Flutter Inspector" order="12" />
+      <window_info anchor="right" id="Flutter Outline" order="13" weight="0.32928678" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Build Variants" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22272727" />
+      <window_info id="Structure" order="3" weight="0.24886191" />
+      <window_info id="Captures" order="4" side_tool="true" weight="0.32852808" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5730519" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3961039" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.5388349" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5128983" side_tool="true" weight="0.72564936" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.48710167" weight="0.72564936" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.9237013" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3273906" />
+      <window_info anchor="bottom" id="Gradle Console" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3273906" />
+      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49772382" visible="true" weight="0.32686085" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="16" sideWeight="0.49924126" weight="0.32792208" />
+      <window_info anchor="right" x="86" y="120" width="851" height="501" id="Documentation" order="0" type="FLOATING" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.30454546" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32776934" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="StringPreview" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32928678" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32928678" />
+      <window_info anchor="right" id="Flutter Inspector" order="12" />
+      <window_info anchor="right" id="Flutter Outline" order="13" weight="0.32928678" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="nav drawer added using fragment and list of buttons" />
+    <MESSAGE value="- nav drawer added using navigation view and menu&#10;- users , patients ,specialities managment added" />
+    <MESSAGE value="beta version : Problems : fake firebase , ugly sign in/up" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta version : Problems : fake firebase , ugly sign in/up" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/CreatePatientAccountFragment.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/979630a828ad56b79aad8fa6cd74d459/jars/classes.jar!/com/google/firebase/FirebaseApp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.2.1.aar/0772732c10a2bd8087731704d5232cd0/jars/classes.jar!/com/google/firebase/auth/FirebaseAuth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/FirebaseUserIdTokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditDoctorAccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="611" column="11" selection-start-line="611" selection-start-column="8" selection-end-line="611" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/AdminManamentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="490" column="81" selection-start-line="490" selection-start-column="81" selection-end-line="490" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_patient_registration.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#3488#3527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_menu_drawer.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/UserInfoHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4708">
+          <caret line="243" column="89" selection-start-line="243" selection-start-column="89" selection-end-line="243" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/AddAppointmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7634">
+          <caret line="390" column="90" selection-start-line="390" selection-start-column="90" selection-end-line="390" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/set_services_dialog.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/select_doc_service_dialog.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#1589#1613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_person_white_24dp.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/DoctorService_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/PatientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/utils/ImageFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3682">
+          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_file_upload_test.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="111" column="56" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.2.1.aar/0772732c10a2bd8087731704d5232cd0/jars/classes.jar!/com/google/firebase/auth/EmailAuthCredential.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="51" column="186" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/EditProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="202" column="12" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
+          <folding>
+            <element signature="e#7242#7284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/DoctorAppointmentListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="167" column="51" selection-start-line="167" selection-start-column="51" selection-end-line="167" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/EditPatientAccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="299" column="18" selection-start-line="299" selection-start-column="18" selection-end-line="299" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientAppointmentListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="267" column="11" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/UsersManagmentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5896">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+          <folding>
+            <element signature="e#4590#4591#0" expanded="true" />
+            <element signature="e#4634#4635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/PatientRegistrationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_profile.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Android/Sdk/sources/android-27/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="703" column="28" selection-start-line="703" selection-start-column="28" selection-end-line="703" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_request_doctor_account.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#1205#1230#0" expanded="true" />
+            <element signature="e#2034#2047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_person_white_100dp.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_doctor_avatar_placeholder_100dp.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAppointmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/doctor_appointment_row_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/Services/FileUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_user_avatar_placeholder_100dp.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/DoctorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="87" column="9" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/doctor_row_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="37" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/FileUploadTestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="108" column="53" selection-start-line="104" selection-start-column="20" selection-end-line="108" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/fragments/RequestDoctorAccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="207" column="109" selection-start-line="207" selection-start-column="109" selection-end-line="207" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/api/ServiceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user_avatar_placeholder_100dp.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/patient_appointment_row_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pro0inter/heydoc/adapters/PatientAppointmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

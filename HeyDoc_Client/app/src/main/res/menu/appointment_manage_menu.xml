@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/appointment_get_dir"
+        android:title="@string/action_get_directions" />
+    <item
+        android:id="@+id/appointment_showPatientDetails"
+        android:title="@string/show_patient_details" />
+    <item
+        android:id="@+id/appointment_showDoctorDetails"
+        android:title="@string/show_doctor_details" />
+    <item
+        android:id="@+id/appointment_setAsFinished"
+        android:title="@string/action_setAsFinished" />
+    <item
+        android:id="@+id/appointment_cancel"
+        android:title="@string/action_cancel" />
+
+
+</menu>
